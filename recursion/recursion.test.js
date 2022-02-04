@@ -49,26 +49,23 @@ pow(2,4) = 16
 */
 
 function pow(x, n) {
-  if (n == 1) {
-    return x;
-  } else if (n == 0) {
-    return 1;
-  } else {
-    return x * pow(x, n - 1);
-  }
+    if (n == 1) {
+        return x;
+    } else if (n == 0) {
+        return 1;
+    } else {
+        return x * pow(x, n - 1);
+    }
+
 }
-
-console.log(pow(n, x));
-
 
 // Write a function that take n as parameter and return the nth element in the Fibonacci Series
 
 
 function fibonacci(n) {
-  if (n == 0 || n == 1) {
-    return n;
-  } else {
-    return fibonacci(n - 1) + fibonacci(n - 2);
-  }
+    if (n == 0 || n == 1) {
+        return n;
+    } else {
+        return fibonacci(n - 1) + fibonacci(n - 2);
+    }
 }
-console.log(fibonacci(n));
